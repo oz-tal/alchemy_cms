@@ -99,17 +99,13 @@ module Alchemy
       def element_includes
         [
           {
-            contents: {
-              essence: :ingredient_association
-            }
+            contents: :essence
           },
           :tags,
           {
             all_nested_elements: [
               {
-                contents: {
-                  essence: :ingredient_association
-                }
+                contents: :essence
               },
               :tags
             ]

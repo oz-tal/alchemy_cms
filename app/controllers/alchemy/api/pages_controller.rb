@@ -110,17 +110,13 @@ module Alchemy
             {
               nested_elements: [
                 {
-                  contents: {
-                    essence: :ingredient_association
-                  }
+                  contents: :essence
                 },
                 :tags
               ]
             },
             {
-              contents: {
-                essence: :ingredient_association
-              }
+              contents: :essence
             },
             :tags
           ]
